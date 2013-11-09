@@ -1,0 +1,160 @@
+body{
+	background: #FFF;
+	font-size: 14px;
+}
+
+
+.navbar, #header, #finance, #step, #testi{
+	margin-bottom: 2%;
+}
+
+/*navbar*/
+.navbar.navbar-default{
+	background: #f5f5f5;
+}
+.navbar-default .navbar-brand{
+	color: #ff726e;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #ff726e;
+}
+.navbar-default .navbar-nav > .active > a {
+    color: #ff726e;
+    background: #f5f5f5;
+    box-shadow: none;
+}
+.nav.navbar-nav.navbar-right{
+	margin-top: 10px;
+	background: #F5F5F5;
+}
+
+/*header*/
+#header{
+	background: #eeeeee;
+	width: auto;
+	height: auto;
+}
+.jumbotron{
+	background: #ff726e;
+	margin: 0 auto;
+    width: 99%;
+}
+.jumbotron h1, .jumbotron .col-xs-9 > p{
+	color: #FFF;
+	font-weight: lighter;
+}
+.jumbotron input{
+	margin-bottom: 10px;
+}
+.jumbotron .btn {
+	color: #ae2c2c;
+	text-shadow: none;
+	margin-bottom: 30px;
+}
+.jumbotron .btn.btn-primary.btn-block {
+    background: #FF726E;
+    border: 1px solid #dd5653;
+}
+.jumbotron .btn.btn-default.btn-block {
+	background: #fc615c;
+	border: 1px solid #fe4c48;
+
+}
+.jumbotron.sticker, .jumbotron.sticker .col-xs-9 > p, .jumbotron .col-xs-3 > h1{
+	margin: 0;
+}
+.pagination.pagination-sm.pull-right{
+	margin: 0;
+}
+
+/*finance */
+
+#finance a{
+	color: #ff726e;
+}
+
+/*step*/
+#step{
+	background: #eeeeee;
+	width: auto;
+}
+.row.row-step{
+	width: 95%;
+	height: 95%;
+	margin: 0 auto;
+}
+#step .col-xs-10{
+	margin: 23px auto;
+}
+#step .col-xs-2 > h1{
+	font-size: 4.7em;
+	color: #ff726e;
+	text-shadow: 0 0 1px #000000;
+}
+#step.step-user .col-xs-10 > p{
+	font-size: 1em;
+	margin: 0px;
+}
+#step .btn.btn-primary.btn-block{
+	margin: 35px auto;
+	background: #FF726E;
+    border: 1px solid #dd5653;
+    color: #ae2c2c;
+}
+
+/*blog*/
+.blog-pics {
+    background: url("../img/icon/blog-icons.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+	.pics-2{
+		background-position: -40px;
+	}
+	.pics-3{
+		background-position: -80px;
+	}
+.table.table-bordered {
+    border: 5px solid #F4F4F4;
+}
+
+.table.table-bordered td.colored {
+    background: #F4F4F4;
+}
+
+.books {
+    background: url("../img/icon/books-icon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 61px;
+    width: 43px;
+    overflow: hidden;
+}
+	.books-2{
+		background-position: -42px;
+	}
+	.books-3{
+		background-position: -83px;
+	}
+#testi table {
+    margin-bottom: 0;
+}
+
+.tests {
+    background: none repeat scroll 0 0 #F4F4F4;
+    height: 100%;
+    padding: 10px 10px 80px 10px;
+    position: relative;
+}
+.testi-bottom {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.tests > p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
