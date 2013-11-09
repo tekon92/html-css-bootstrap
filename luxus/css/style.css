@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	background: url('../img/background.jpg') repeat-x #eb3b3b;
+	height: 1100px;
+}
+/* background-content*/
+.container.background-content{
+	background: url('../img/container.png') no-repeat ;
+    height: 598px;
+    width: 1009px;
+}
+
+.navbar, .navbar-inner{
+	background: #ff4647;
+	border: none;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.inner-content{
+	background: url('../img/container_img.png') no-repeat;
+	height: 442px;
+    margin: 0 auto;
+    width: 983px;
+    position: relative;
+}
+	.intro-text{
+		background: url('../img/into-text.png') no-repeat;
+		height: 356px;
+   		width: 328px;
+	}
+.intro-text-icon {
+    height: 38%;
+    position: absolute;
+    top: 323px;
+    left: 13px;
+    width: auto;
+}
+	.intro-icon {
+    background: url("../img/img-sprite/stuff-icon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 158px;
+    width: 93%;
+}
+	.intro-icon.ibathub{
+		background-position: -479px top;
+	}
+	.intro-icon.ibasin{
+		background-position: 0 top;
+	}	
+	.intro-icon.iclosets{
+		background-position: -320px top;
+	}
+	.intro-icon.iproduct{
+		background-position: -160px top;
+	}
+	.intro-icon.iwash{
+		background-position: 0 top;
+	}
+.product-range {
+    background: url('../img/product-tab-with-text.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 210px;
+    left: 307px;
+    position: relative;
+    top: 357px;
+    width: 339px;
+    z-index: -1;
+}
+.product-range-img{
+	background: url('../img/product-tab-with-text.png') no-repeat bottom center;
+	width: 339px;
+	height: 210px;
+}
+#get{
+	height: 100px;
+    margin-top: 34px;
+    width: 100%;
+}
+	.get-icon{
+		background: url('../img/img-sprite/started-icon.png') no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 83px;
+    width: 268px;
+	}
+		.get-icon.style{
+			background-position: -503px top;
+		}
+		.get-icon.product{
+			background-position: -269px top;
+    		width: 233px;
+		}
+		.get-icon.connected{
+			background-position: 0 top;
+		}
+.register-icon{
+	background: url('../img/img-sprite/cons-icon.png')no-repeat top left;
+	width: 300px;
+	height: 248px;
+	position: relative;
+}
+.profile-img{
+	background: url('../img/thumb/home1-thumb.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 90px;
+    width: 258px;
+    display: inline-block;
+    left: 23px;
+    position: absolute;
+    top: 10px;
+}
+.register-icon p{
+	margin-left: 26px;
+    width: 263px;
+}
+	.left-words{
+		bottom: 61px;
+    position: absolute;
+	}
+.select{
+	margin-left: 44px;
+}
+	.submit{
+		left: 84px;
+		position: relative;
+		top: 20px;
+	}
+.social-icon{
+	background: url('../img/img-sprite/social-icon.png') no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 81px;
+    left: 40px;
+    margin: 15px;
+    position: relative;
+    top: 8px;
+    width: 81px;
+}
+	.social-icon.fb{
+		background-position: -81px top;
+	}
+.link-social{
+	clear: both;
+    left: 108px;
+    position: relative;
+    top: 24px;
+}
+.top, .bottom{
+	position: relative;
+	top: 15px;
+}
