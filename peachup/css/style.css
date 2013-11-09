@@ -4,7 +4,7 @@ body{
 }
 
 
-.navbar, #header, #finance, #step, #testi{
+.navbar, #header, #finance, #step, #testi, #selling{
 	margin-bottom: 2%;
 }
 
@@ -157,4 +157,91 @@ body{
     margin: 0 auto;
     padding: 10px;
     width: 90%;
+}
+#testi .arrows {
+    background: url("../img/icon/arrows-icon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    overflow: hidden;
+    text-indent: -999999px;
+}
+	.laquo{
+		background-position: 0;
+	}
+	.raquo{
+		background-position: 0;
+	}
+
+/*selling*/
+
+#selling {
+    border: 3px solid #F4F4F4;
+    width: auto;
+}
+#selling .sell-row {
+    padding: 15px;
+}
+#selling .btn.btn-primary.btn-block {
+    margin-top: 10%;
+    background: none repeat scroll 0 0 #FC615C;
+    border: 1px solid #FE4C48;
+}
+#selling h1{
+	color: #ff726e;
+}
+
+/*footer*/
+footer{
+	background: #F4F4F4;
+}
+.social-icon a{
+	background: url("../img/icon/socials-icon-black.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 16px;
+    width: 16px;
+    overflow: hidden;
+    text-indent: -999999px;
+}
+	.social-1 a{
+		background-position: -48px;
+	}
+	.social-2 a{
+		background-position: -32px;
+	}
+	.social-3 a{
+		background-position: -16px;
+	}
+	.social-4 a{
+		background-position: 0;
+	}
+.social-icon a:hover{
+	background: url('../img/icon/socials-icon-color.png') no-repeat scroll left top rgba(0,0,0,0);
+}
+	.social-1 a:hover{
+		background-position: -48px;
+	}
+	.social-2 a:hover{
+		background-position: -32px;
+	}
+	.social-3 a:hover{
+		background-position: -16px;
+	}
+	.social-4 a:hover{
+		background-position: 0;
+	}
+.media-object {
+    background: none repeat scroll 0 0 #CBCBCB;
+    height: 50px;
+    width: 50px;
+}
+.twitter a {
+    color: #FC615C;
+}
+.photo-stream {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1px;
+}
+.photo .list-inline > li {
+    margin: 0;
+    padding: 6px;
 }
