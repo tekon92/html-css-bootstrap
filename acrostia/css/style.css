@@ -14,7 +14,11 @@
 	height: 30px;
 	text-indent: -999999px;
 }
-.navbar-default .navbar-nav a:hover{
+.navbar-default .navbar-nav > li > a{
+	color: #FFF;
+	text-shadow: none;
+}
+.navbar-default .navbar-nav > .active > a:hover{
 	background: #74c7d5;
 }
 .navbar-default .navbar-nav > .active > a{
