@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Acrostia</title>
+	<meta name="metaport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="jumbotron">
+	  <div class="container">
+
+	    	<nav class="navbar navbar-default" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    
+			    <a class="navbar-brand" href="#">Brand</a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav pull-right">
+			      <li class="active"><a href="#">Home</a></li>
+			      <li><a href="#">Servies</a></li>
+			      <li><a href="#">About</a></li>
+			      <li><a href="#">Work</a></li>
+			      <li><a href="#">Contact</a></li>
+			    </ul>
+			  </div><!-- /.navbar-collapse -->
+			</nav>
+
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner text-center">
+			    <div class="item active">
+			      <img src="img/header-words.png" alt="...">
+			    </div>
+
+			   <div class="item">
+				  <img src="img/header-words.png" alt="...">
+				</div>
+
+
+			    <div class="item">
+				  <img src="img/header-words.png" alt="...">
+				</div>
+			  </div>
+
+			   <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+
+	  </div><!--end of container-->
+	</div><!--end of jummbotron-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$('.carouselBanner').carousel(),
+			$('.carouselTestimonial').carousel(),
+			$('.collapse').collapse('')
+		});
+	</script>
+</body>
+</html>
