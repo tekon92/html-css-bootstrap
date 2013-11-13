@@ -1,0 +1,89 @@
+body{
+	background: url('../../img/about-bg.png')no-repeat scroll #665464;
+}
+h1, h2, h3, h4, h5{
+	text-transform: uppercase;
+	color: #FFF;
+}
+p{
+	color: #FFF;
+}
+#header, #service{
+	margin-bottom: 10%;
+}
+.navbar-default{
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+.navbar-brand{
+	background: url('../../img/brand.png')no-repeat transparent;
+	width: 151px;
+	height: 30px;
+	text-indent: -999999px;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+	background: #90778d;
+}
+.navbar-default .navbar-nav > .active > a{
+	background: #90778d;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #FFF;
+}
+.col-md-3{
+	background: #594956;
+}
+
+.about-img{
+	background: url('../../img/img-sprite/about-sprite.png')no-repeat left top transparent;
+	width: 166px;
+	height: 166px;
+	display: block;
+	margin: 0 auto;
+}
+.about-img:hover{
+	background: url('../../img/img-sprite/about-sprite.png')no-repeat;
+}
+	a.social-icon {
+		background: url('../../img/img-sprite/social-purp-sprite.png')no-repeat left top transparent;
+		width: 30px;
+		height: 30px;
+		text-indent: -999999px;
+		display: block;
+	}
+	.social-icon.icon1{
+		 
+	}
+	.social-icon.icon2{
+		background-position: -30px;
+	}
+	.social-icon.icon3{
+		background-position: -60px;
+	}
+	.social-icon.icon4{
+		background-position: -90px;
+	}
+	a.social-icon:hover{
+		background: url('../../img/img-sprite/social-color-sprite.png')no-repeat left top transparent;
+		width: 30px;
+		height: 30px;
+	}
+	a.social-icon.icon1:hover{
+		 
+	}
+	a.social-icon.icon2:hover{
+		background-position: -30px;
+	}
+	a.social-icon.icon3:hover{
+		background-position: -60px;
+	}
+	a.social-icon.icon4:hover{
+		background-position: -90px;
+	}
+h2.meet {
+    background: none repeat scroll 0 0 #A1CA6C;
+    display: inline;
+    font-size: 1.5em;
+    padding: 8px;
+}
