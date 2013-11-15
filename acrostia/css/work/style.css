@@ -1,0 +1,76 @@
+body{
+	background: url('../../img/portfolio-bg.png')no-repeat scroll #83a357;
+}
+h1, h2{
+	text-transform: uppercase;
+	color: #FFF;
+}
+h6{
+	color: #b1b1b1;
+}
+.navbar-default{
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+.navbar-brand{
+	background: url('../../img/brand.png')no-repeat transparent;
+	width: 151px;
+	height: 30px;
+	text-indent: -999999px;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+	background: #a1ca6c;
+}
+.navbar-default .navbar-nav > .active > a{
+	background: #a1ca6c;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #FFF;
+}
+.poto-works{
+	width: 263px;
+	height: 200px;
+	display: block;
+}
+	.poto-works.poto1{
+		background: url('../../img/port/1.jpg')no-repeat transparent;
+	}
+	.poto-works.poto2{
+		background: url('../../img/port/2.jpg')no-repeat transparent;
+	}
+	.poto-works.poto3{
+		background: url('../../img/port/3.jpg')no-repeat transparent;
+	}
+	.poto-works.poto4{
+		background: url('../../img/port/4.jpg')no-repeat transparent;
+	}
+	.poto-works.poto5{
+		background: url('../../img/port/5.jpg')no-repeat transparent;
+	}
+	.poto-works.poto6{
+		background: url('../../img/port/6.jpg')no-repeat transparent;
+	}
+	.poto-works.poto7{
+		background: url('../../img/port/7.jpg')no-repeat transparent;
+	}
+	.poto-works.poto8{
+		background: url('../../img/port/8.jpg')no-repeat transparent;
+	}
+.row {
+    margin-bottom: 2%;
+}
+
+.col-md-3{
+	background: #eeeeee;
+	padding-left: 0;
+    padding-right: 0;
+    margin-right: 23px;
+    width: 22%;
+}
+.col-md-3 > h6{
+	width: auto;
+}
+#sort .active > a{
+	background: #f5c149;
+}
