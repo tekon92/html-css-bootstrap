@@ -1,0 +1,17 @@
+.body{
+	font-size: 100%;
+}
+.container{
+	width: 948px;
+	background: yellow;
+}
+.main{
+	float: left;
+	width: 65%;
+	background: blue; /*624/948*/
+}
+aside{
+	float: right;
+	width: 31%; /*30/948*/
+	background: red;
+}
