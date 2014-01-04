@@ -1,0 +1,7 @@
+header : minbg : #373b4a, background : #303441, font : #fff, font:hover = #eb5055, height : 100px
+jumbotron : height = 600px, background = #eb5055, line-bottom = #ea676b
+services : background = #f2f2f2, height = 450px
+portfolio : background = #303441, height = 950px
+about : background = #f2f2f2, height : 800px
+quote : background = #eb5055, form : #ca4549, font : #f0d8d9
+footer : height = 100px, background = #303441, font : #666d89 12pt

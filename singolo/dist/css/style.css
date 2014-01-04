@@ -1,0 +1,200 @@
+*{
+  font-family: 'Lato','sans-serif';
+}
+body{
+  background: #f2f2f2;
+}
+.header {
+    background: none repeat scroll 0 0 #303441;
+    border-bottom: 0.5em solid #373B4A;
+    margin-bottom: 0;
+}
+.nav.nav-pills.pull-right a {
+    color: #FFFFFF;
+}
+.nav.nav-pills.pull-right a:hover, .nav.nav-pills.pull-right a:active {
+   color: #eb5055;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .nav-pills > li > a, 
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+  background: none;
+}
+.text-muted {
+    background: url('../../img/logo.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #999999;
+    left: 20px;
+    position: relative;
+    text-indent: -999999px;
+    top: 10px;
+}
+
+/*****************
+*
+* jumbotron
+*****************/
+.jumbotron {
+    background: none repeat scroll 0 0 #EB5055;
+}
+/*****************
+*
+* services
+*****************/
+
+.service {
+    background: url('../../img/services-sprite.png') no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 59px;
+    margin-right: 14px;
+    margin-top: 14px;
+    width: 59px;
+    margin-bottom: 57px;
+}
+  .service.ser3 {
+    background-position: -59px center;
+}
+  .service.ser5 {
+    background-position: -118px center;
+}
+  .service.ser2 {
+    background-position: -177px center;
+}
+  .service.ser4 {
+    background-position: -236px center;
+}
+  .service.ser6 {
+    background-position: -295px center;
+}
+.text > p {
+    word-spacing: 3px;
+    font-size: 0.875em;
+}
+
+/*****************
+*
+* portfolio
+*****************/
+
+.portfolio{
+  background: #303441;
+  color: #666d8a;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #383b4a;
+}
+.port-text {
+    margin-left: 10px;
+}
+.portfolio ul.nav {
+    margin-left: -7px;
+}
+.portfolio ul.nav a {
+    border: 1px solid #666D8A;
+    color: #666D8A;
+    font-size: 0.5em;
+    margin: 1em;
+}
+.portfolio ul.nav a:nth(1){
+  margin-left: 0;
+}
+  .portfolio ul.nav a:hover, .portfolio ul.nav a:active{
+    color: #FFFFFF;
+    border: 1px solid #dddddd;
+  }
+img.port {
+    margin-bottom: 16px;
+    padding: -10px;
+    width: 160px;
+    margin-left: -6px;
+}
+
+/*****************
+*
+* portfolio
+*****************/
+.about-img {
+    width: 220px;
+}
+a.about-sp.fb {
+    background: url("../../img/social-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    text-indent: -999999px;
+    width: 32px;
+}
+  a.about-sp.g {
+    background: url("../../img/social-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    text-indent: -999999px;
+    width: 32px;
+    background-position: -32px 0;
+}
+  a.about-sp.tw {
+    background: url("../../img/social-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    text-indent: -999999px;
+    width: 32px;
+    background-position: -64px 0;
+}
+  a.about-sp.lk {
+    background: url("../../img/social-sprite.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    text-indent: -999999px;
+    width: 32px;
+    background-position: -96px 0;
+}
+
+.social > li > a:hover, .social > li > a:focus {
+  background: transparent;
+}
+
+/*****************
+*
+* Quotes
+*****************/
+
+
+textarea {
+    resize: none;
+}
+.quote {
+    background: none repeat scroll 0 0 #EB5055;
+    padding: 25px;
+    color: #F0D8D9;
+    font-size: 0.8em;
+}
+.quote h4 {
+    font-size: 1.5em;
+}
+.form-control {
+    background-color: #CA4549;
+    background-image: none;
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #F0D8D9;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+.quote-logo {
+    background: url('../../img/about-sprite.png') no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 11px;
+    width: 11px;
+}
+.quote-logo.logo1{
+ background-position: -24px; 
+}
+.quote-logo.logo3{
+ background-position: -12px; 
+}
+
+/*****************
+*
+* Quotes
+*****************/
+
+.footer {
+    background: none repeat scroll 0 0 #303441;
+}
